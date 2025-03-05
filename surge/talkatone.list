@@ -1,20 +1,13 @@
-// Surge for Mac 规则文件
-[Rule]
+# NAME: talkatone
 
-// talkatone 相关域名规则
-DOMAIN-SUFFIX,battle.net,talkatone
-DOMAIN-SUFFIX,inmobi.com,talkatone
-DOMAIN-SUFFIX,crashlytics.com,talkatone
-DOMAIN-SUFFIX,talkatone.com,talkatone
-DOMAIN-SUFFIX,kochava.com,talkatone
-DOMAIN-SUFFIX,cohere.com,talkatone
-DOMAIN-SUFFIX,ip-api.com,talkatone
-DOMAIN-SUFFIX,agkn.com,talkatone
-DOMAIN-SUFFIX,btktn.at,talkatone
+
+HOST-SUFFIX,cohere.com,talkatone
+HOST-SUFFIX,ip-api.com,talkatone
+HOST-SUFFIX,agkn.com,talkatone
+HOST-SUFFIX,btktn.at,talkatone
 DOMAIN-SUFFIX,tktn.at,talkatone
 DOMAIN-SUFFIX,tktn.be,talkatone
-
-// DIRECT 直连规则
+  
 DOMAIN-SUFFIX,agkn.com,DIRECT
 DOMAIN-SUFFIX,cohere.com,DIRECT
 DOMAIN-SUFFIX,crashlytics.com,DIRECT
@@ -24,20 +17,22 @@ DOMAIN-SUFFIX,ip-api.com,DIRECT
 DOMAIN-SUFFIX,kochava.com,DIRECT
 DOMAIN-SUFFIX,mobilefuse.com,DIRECT
 DOMAIN-SUFFIX,talkatone.com,DIRECT
+IP-CIDR,205.164.56.0/24,DIRECT,no-resolve
+IP-CIDR,216.172.154.0/24,DIRECT,no-resolve
+IP-CIDR,50.117.27.0/24,DIRECT,no-resolve
+IP-CIDR,63.251.124.0/24,DIRECT,no-resolve
+IP-CIDR,69.46.75.0/24,DIRECT,no-resolve
 
-// IP-CIDR 规则
-IP-CIDR,205.164.56.0/24,DIRECT
-IP-CIDR,216.172.154.0/24,DIRECT
-IP-CIDR,50.117.27.0/24,DIRECT
-IP-CIDR,63.251.124.0/24,DIRECT
-IP-CIDR,69.46.75.0/24,DIRECT
+
 
 IP-CIDR,50.117.27.0/24,talkatone
 IP-CIDR,69.46.75.0/24,talkatone
 IP-CIDR,205.164.56.0/24,talkatone
 IP-CIDR,63.251.124.0/24,talkatone
 
-// 广告屏蔽规则 (REJECT)
+
+
+
 DOMAIN-KEYWORD,googleads,REJECT
 DOMAIN-SUFFIX,ads.inmobi.com,REJECT
 DOMAIN-SUFFIX,adsappier.com,REJECT
