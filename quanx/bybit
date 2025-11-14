@@ -1,6 +1,6 @@
 # NAME: bybit
 # AUTHOR: RYODT
-HOST-SUFFIX,monitor-frontend-collector.a.bybit-aws.com
+HOST-SUFFIX,monitor-frontend-collector.a.bybit-aws.com,bybit
 HOST-SUFFIX,bybit.com,bybit
 HOST-SUFFIX,bybit.biz,bybit
 HOST-SUFFIX,bybdc6.com,bybit
