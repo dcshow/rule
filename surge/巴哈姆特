@@ -1,0 +1,10 @@
+# --- Anime Bahamut (巴哈姆特動畫瘋) ---
+# USER-AGENT 匹配
+USER-AGENT,Anime*,PROXY
+
+# 域名关键字/后缀匹配
+DOMAIN,bahamut.akamaized.net
+DOMAIN,gamer-cds.cdn.hinet.net
+DOMAIN,gamer2-cds.cdn.hinet.net
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,gamer.com.tw
