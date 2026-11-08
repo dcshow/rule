@@ -1,0 +1,25 @@
+# NAME: Apple AI
+# AUTHOR: RocM301
+# REPO: https://github.com/RocM301/Apple-Rule
+# UPDATED: 2026-11-08
+# HOST: 17
+# HOST-SUFFIX: 1
+# TOTAL: 18
+HOST,guzzoni.apple.com,Apple AI
+HOST-SUFFIX,smoot.apple.com,Apple AI
+HOST,api-siri-prod.apple.com,Apple AI
+HOST,seed.siri.apple.com,Apple AI
+HOST,apple-relay.apple.com,Apple AI
+HOST,apple-relay.cloudflare.com,Apple AI
+HOST,apple-relay.fastly-edge.com,Apple AI
+HOST,cp4.cloudflare.com,Apple AI
+HOST,apple-relay.mask.apple-dns.net,Apple AI
+HOST,mask-api.icloud.com,Apple AI
+HOST,mask-api.fe2.apple-dns.net,Apple AI
+HOST,apple-relay.akamaized.net,Apple AI
+HOST,apple-carry-relay.cloudflare.com,Apple AI
+HOST,gspe1-ssl.ls.apple.com,Apple AI
+HOST,gateway.icloud.com,Apple AI
+HOST,probe.icloud.com,Apple AI
+HOST,metrics.icloud.com,Apple AI
+HOST,wps.apple.com,Apple AI
